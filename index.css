@@ -10,6 +10,12 @@
             text-decoration: none;
         }
 
+        a:hover, button:active{
+            border: solid 2px white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
         /*li{
             display: inline;
         }*/
@@ -84,7 +90,7 @@
 
         section{
             height: 400px;
-            background-color: rgb(154, 168, 92);
+            background-color: rgb(104, 105, 97);
             /*margin-bottom: 30px;*/
         }
 
