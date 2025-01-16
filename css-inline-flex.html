@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        .flex-container{
+            background-color: aqua;
+            height: auto;
+            width: 300px;
+            position: relative;
+            top: 200px;
+            left: 250px;
+            
+        }
+
+        h1{
+            text-align: center;
+            /*background-color: red;*/
+        }
+
+        input, button{
+            display: block;
+            margin: 20px auto;
+            padding: .5em;
+            
+        }
+
+        .flex-element{
+            background-color:darkslategrey;
+            width: 600px;
+            height: 150px;
+            margin: 20px;
+            position: relative;
+            left: 700px;
+        }
+
+        h2{
+            color: white;
+        }
+
+        h2, p, a{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+
+
+        p{
+            margin: .5em 0 1.2em 0;
+            color: white;
+            margin: 20px;
+        }
+
+        a{
+            margin-right: .5em;
+            text-decoration: none;
+            border: 1px solid yellow;
+            border-radius: 100px;
+            padding: .35em 1em;
+            color: yellow;
+            transition: 200ms ease;
+        }
+        
+        a:hover{
+            background-color: yellow;
+            color: darkslategray;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="flex-container">
+    <h1>Login</h1>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>
+
+<div class="flex-element">
+    <h2>Simple Developer Portfolio Website</h2>
+    <p>HTML stands for Hypertext Markup Language. It's a code that defines the structure and meaning of a web page's content. HTML is a fundamental building block of the web. </p>
+    <a href=""> <i class="fa-brands fa-github"></i> GitHub Code</a>
+    <a href=""> <i class="fa-brands fa-youtube"></i> YouTube Tutorial</a>
+    <a href=""> <i class="fa-solid fa-globe"></i> Visit Page</a>
+</div>
+</body>
+</html>

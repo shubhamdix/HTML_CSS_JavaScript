@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position-absolute</title>
+
+    <style>
+        .parent{
+            position: relative;
+            background-color: black;
+            color: white;
+            width: 500px;
+            padding: 30px;
+        }
+
+        .child{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: blue;
+            color: white;
+            padding: 20px;
+        }
+
+    
+
+        .search-bar{
+            position: relative;
+            
+        }
+
+        input{
+            padding: 10px 20px;
+            font: inherit;
+            border-radius: 100px;
+            border: 1px solid gray;
+        }
+
+        .buttons{
+            height: 100%;
+            aspect-ratio: 1 / 1;
+            background-color: blue;
+            fill: white;
+            border: none;
+            border-radius: 50%;
+            position: absolute;
+            right: 0;
+            
+            /*z-index: 10;*/
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <h2>Parent Element</h2>
+        <p>Maharashtra (ISO: Mahārāṣṭra, Marathi: [məɦaːˈɾaːʂʈɾə] ⓘ) is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau. It is bordered by the Arabian Sea to the west, the Indian states of Karnataka and Goa to the south, Telangana to the southeast and Chhattisgarh to the east, Gujarat and Madhya Pradesh to the north, and the Indian union territory of Dadra and Nagar Haveli and Daman and Diu to the northwest.[18] Maharashtra is the second-most populous state in India and the fourth-most populous country subdivision in the world.</p>
+
+        <div class="child">
+            <h2>Child Element</h2>
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" name="search" placeholder="Search"/>
+
+    
+        <button class="buttons">click</button>
+    
+    </div>
+</body>
+</html>
